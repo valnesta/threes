@@ -1,0 +1,7 @@
+#Find all numbers from 1- 1000 that has a 3 in them
+#and return the length
+
+number = range(0, 1001)
+threes = [no for no in number if '3' in str(no)]
+print(threes)
+print(len(threes))
